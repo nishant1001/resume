@@ -1,1 +1,1 @@
-# a simple webpage as my resume uz why not...?
+# a simple webpage as my resume cuz why not...?
