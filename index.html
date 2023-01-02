@@ -1,57 +1,91 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Resume | Nishant Kumar</title>
-    <link rel="icon" type="image/x-icon" href="D:\Downloads\icon.png">
-  </head>
-  <body style="cursor:help;">
-    <header>
-      <h1 style="color:black"><mark style="background-color:#39ff14">nishant kumar</mark> <span style="color:#39ff14">&#9794</span></h1>
-      <h2><mark style="background-color:#39ff14">Contact </mark>Information</h2>
+<head>
+  <style>
+    /* Style the body and the horizontal scroll container */
+    body {
+      font-family: Arial, sans-serif;
+	 background-color:black;
+      overflow-x: auto; /* Enable horizontal scrolling */
+      white-space: nowrap; /* Prevent wrapping of text */
+    }
+    .scroll-container {
+      display: inline; /* Display the container as an inline block */
+      padding: 16px; /* Add some padding to the container */
+	 width:100%;  
+	 vertical-align:top; 
+	 overflow-x: auto; /* Enable horizontal scrolling */
+      white-space: nowrap; /* Prevent wrapping of text */
+    }
+
+    .section {
+      display: inline-block; /* Display the section as an inline block */
+      width: 95%; /* Set the width of the section */
+      margin-right: 16px; /* Add some space between sections */
+     }
+    .section h2 {
+      font-size:100px;
+      margin:0px;
+	 color:#39ff14;
+    }
+    .section p {
+      font-size: 30px;
+	 margin:0px;
+	 color:#ff5fd0;
+    }
+	.section a {
+	 color:#00ffff;
+	}
+  </style>
+</head>
+<body style="cursor:none;">
+  <!-- Create a container for the resume sections -->
+  <div class="scroll-container">
+    <!-- Add the resume sections -->
+    	<div class="section">
+	 <h2>hi...</h2>
+	 <h2>i am</mark> <mark style="background-color:white;">nishant</mark</h2>
+	 <p><br>an undergrad learner <br>at <mark style="background-color:#ffff00;">Delhi Technological University</mark></p>
+	 <p> and a <mark style="background-color:#ffff00;">graphic enthusiast</mark></p>
+	</div>
+	<div class="section">
+	<h2 style="color:#ffff00;"><mark style="background-color:white;">Contact </mark>Information</h2>
       <ul>
-        <li>Email: <a href="mailto:nishantk1001@gmail.com">nishantk1001@gmail.com</a></li>
-        <li>Phone: <a href="tel:+918595821640">+91 8595821540</a></li>
-	   <li> <a href="https://www.linkedin.com/in/nishantk0910/">LinkedIn</a>
-        <li>Location: New Delhi, Delhi, India</li>
+        <li><p style="color:#d600ff;">Email: <a href="mailto:nishantk1001@gmail.com">nishantk1001@gmail.com</a></p></li>
+        <li><p style="color:#d600ff;">Phone: <a href="tel:+918595821640">+91 8595821540</a></p></li>
+	   <li><p style="color:#d600ff;">Other: <a href="https://www.linkedin.com/in/nishantk0910/">LinkedIn</a></p></li>
+        <li><p style="color:#d600ff;">Location: New Delhi, Delhi, India</p></li>
       </ul>
-    </header>
-    <main>
-      <section>
-        <h2><mark style="background-color:#39ff14">Education</mark></h2>
+	</div>
+    <div class="section">
+        <h2 style="color:#ff414d;"><u style="color:#ffff00;">Edu</u>cation</h2>
         <ul>
-          <li>B. Tech, Delhi Technological University   <b>8.507 CGPA(aggregate)</b></li>
-          <li>12<sup>th</sup>, Laxman Public School  <a href="https://drive.google.com/file/d/1-thV7TmrsvS3KYgappFXDWEok945ugjE/view?usp=share_link"><b>90.06%</b></a></li>
-		<li>10<sup>th</sup>, St. Mary's Public School  <a href="https://drive.google.com/file/d/1-t3yKb2bbDUJCyIXvNFALRrXGqKh23-1/view?usp=share_link"><b>10CGPA</b></a></li>
+          <li><p style="color:#1685f8;">B. Tech, Delhi Technological University   <b>8.507 CGPA</b></p></li>
+          <li><p style="color:#1685f8;">12<sup>th</sup>, Laxman Public School  <a style="color:#d600ff"; href="https://drive.google.com/file/d/1-thV7TmrsvS3KYgappFXDWEok945ugjE/view?usp=share_link">90.06%</a></p></li>
+		<li><p style="color:#1685f8;">10<sup>th</sup>, St. Mary's Public School  <a style="color:#d600ff"; href="https://drive.google.com/file/d/1-t3yKb2bbDUJCyIXvNFALRrXGqKh23-1/view?usp=share_link">10CGPA</a></p></li>
         </ul>
-      </section>
-      <section>
-        <h2><mark style="background-color:#39ff14">Skills</mark></h2>
-        <ul>
-          <li>C/C++</li>
-		<li>HTML</li>
-          <li>Machine Learning (amateur)</li>
+      </div>
+	<div class="section">
+        <h2 style="color:#491079;">Personal<mark style="background-color:white; color:#39ff14;"> Projects</mark></h2>
+        <p><ul>
+          <li><p><a style="color:white;" href="https://onlinegdb.com/j-TdA66H3">Self-Mental Health Assessment</a></p></li>
+			<ul>
+			  <li><p style="color:#ffff00;">designed a simple algorithm to detect early stages of mental health.</p></li>
+			</ul>
+          <li><p><a style="color:white;" href="https://colab.research.google.com/drive/1E4T_sESkesSNryIlALhmOCEbxEhss-7i?usp=sharing">Data Extraction from Low-Light image</a></p></li>
+			<ul>
+			  <li><p style="color:#ffff00;">extract useful data from low light images using python inbuilt libraries.</p></li>
+			</ul>
+        </ul></p>
+      </div>
+	<div class="section">
+		<h2>S<u>kills</u></h2>
+          <ul>
+          <li><p>C/C++</p></li>
+		<li><p>HTML</p></li>
+          <li><p>Machine Learning (amateur)</p></li>
         </ul>
-      </section>
-      <section>
-        <h2>Personal<mark style="background-color:#39ff14"> Projects</mark></h2>
-        <ul>
-          <li><a href="https://onlinegdb.com/j-TdA66H3">Self-Mental Health Assessment</a></li>
-			<ul>
-			  <li>designed a simple algorithm to detect early stages of mental health.</li>
-			</ul>
-          <li><a href="https://colab.research.google.com/drive/1E4T_sESkesSNryIlALhmOCEbxEhss-7i?usp=sharing">Data Extraction from Low-Light image</a></li>
-			<ul>
-			  <li> extract useful data from low light images using python inbuilt libraries.</li>
-			</ul>
-        </ul>
-      </section>
-      <section>
-        <h2><mark style="background-color:#39ff14">Hobbies</mark></h2>
-			<ul>
-			  <li><a href="https://www.instagram.com/bittergarbage/">street photography</a></li>
-			  <li>abstract writing</li>
-			</ul>
-      </section>
-    </main>
-  </body>
+	</div>
+  </div>
+</body>
 </html>
