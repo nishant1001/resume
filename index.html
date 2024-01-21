@@ -4,36 +4,45 @@
   <title>nishoopps</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <style>
-    /* Style the body and the horizontal scroll container */
     body {
       font-family: Arial, sans-serif;
-	 background-color:black;
-      overflow-x: auto; /* Enable horizontal scrolling */
-      white-space: nowrap; /* Prevent wrapping of text */
+      background-color: black;vertical-align: middle;
+      white-space: nowrap;
+      position: relative;
+      top: 50%;
+      transform: translateY(30%);
+    }
+    .scroll-container {
+      white-space: nowrap;
+      display: inline-block; /* Display the container as an inline block */
+      padding:15x; /* Add some padding to the container */
+      width:95%; 
     }
     .section {
+      white-space: nowrap;
+      vertical-align: middle;
       display: inline-block; /* Display the section as an inline block */
-      width: 95%; /* Set the width of the section */
-      margin-right: 16px; /* Add some space between sections */
-     }
+      width: 95% /* Set the width of the section */
+    }
     .section h2 {
       font-size:100px;
       margin:0px;
-	 color:#39ff14;
+      color:#39ff14;
     }
     .section p {
       font-size: 30px;
-	 margin:0px;
-	 color:#ff5fd0;
+      margin:0px;
+      color:#ff5fd0;
     }
-	.section a {
-	 color:#00ffff;
-	}
+
+    .section a {
+      color:#00ffff;
+    }
   </style>
 </head>
 <body>
   <!-- Create a container for the resume sections -->
-  <div>
+  <div class="scroll-container">
     <!-- Add the resume sections -->
     	<div class="section">
 	 <h2>hi...</h2>
@@ -53,9 +62,9 @@
     <div class="section">
         <h2 style="color:#ff414d;"><u style="color:#ffff00;">Edu</u>cation</h2>
         <ul>
-          <li><p style="color:#1685f8;">B. Tech, Delhi Technological University <u style="color:#d600ff;">8.054 CGPA</u></p></li>
+          <li><p style="color:#1685f8;">B. Tech, Delhi Technological University   <b>8.052 CGPA</b></p></li>
           <li><p style="color:#1685f8;">12<sup>th</sup>, Laxman Public School  <a style="color:#d600ff"; href="https://drive.google.com/file/d/1-thV7TmrsvS3KYgappFXDWEok945ugjE/view?usp=share_link">90.06%</a></p></li>
-		<li><p style="color:#1685f8;">10<sup>th</sup>, St. Mary's Public School  <a style="color:#d600ff"; href="https://drive.google.com/file/d/1-t3yKb2bbDUJCyIXvNFALRrXGqKh23-1/view?usp=share_link">10 CGPA</a></p></li>
+		<li><p style="color:#1685f8;">10<sup>th</sup>, St. Mary's Public School  <a style="color:#d600ff"; href="https://drive.google.com/file/d/1-t3yKb2bbDUJCyIXvNFALRrXGqKh23-1/view?usp=share_link">10CGPA</a></p></li>
         </ul>
       </div>
 	<div class="section">
@@ -65,7 +74,7 @@
 			<ul>
 			  <li><p style="color:white">detects copy-move forgery in audios using mel-spectrogram.</p></li>
 			</ul>
-          <li><p><a href="https://nishant1001.github.io/Mental-Health-Assessment/">Self-Mental Health </mark>Assessment</a></p></li>
+          <li><p><a href="https://onlinegdb.com/j-TdA66H3">Self-Mental Health </mark>Assessment</a></p></li>
 			<ul>
 			  <li><p style="color:white">designed a simple algorithm to detect early stages of mental health.</p></li>
 			</ul>
@@ -91,6 +100,6 @@
 			  <li><p style="color:white">reading</p></li>
 			</ul>
       </section>
-  </div>
+  </div></div>
 </body>
 </html>
